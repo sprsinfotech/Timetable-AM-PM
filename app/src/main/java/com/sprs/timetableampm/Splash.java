@@ -27,10 +27,8 @@ public class Splash extends AppCompatActivity {
         logo_splash.startAnimation(animation_fade);
 
 */
-        startActivity(new Intent(Splash.this, MainActivity.class));
+        startActivity(new Intent(Splash.this, Dashboard.class));
         finish();
-        
-
 
     }
 }

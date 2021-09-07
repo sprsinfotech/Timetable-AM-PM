@@ -3,8 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="light_blue">#81d4fa</color>
-    <color name="light_blueLightColor">#b6ffff</color>
+    <color name="light_blue">#A5E4FF</color>
+    <color name="light_blueLightColor">#E1FBFF</color>
     <color name="light_blueDarkColor">#4ba3c7</color>
 
     <color name="blueColor">#0d47a1</color>

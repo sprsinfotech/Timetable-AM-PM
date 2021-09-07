@@ -10,11 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TimetableAMPM">
         <activity
+            android:name=".Dashboard"
+            android:exported="true"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.TimetableAMPM.NoActionBar" />
+        <activity
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -23,6 +29,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
